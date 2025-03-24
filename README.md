@@ -20,3 +20,4 @@ Get-NetConnectionProfile
 
 Set-NetConnectionProfile -NetworkCategory Public
 
+https://www.mediafire.com/file/i8aik8o1itdqjvf/MiniTool+Partition+Wizard+Technician+12.8.kuyhAa.7z/file
