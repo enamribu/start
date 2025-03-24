@@ -5,9 +5,6 @@ net accounts /lockoutthreshold:0
 net user administrator /active:yes
 ```
 ```bash
-Pstore516&&##
-```
-```bash
 DISM /online /Get-TargetEditions
 ```
 ```bash
