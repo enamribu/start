@@ -12,3 +12,10 @@ N2Q+8rfsn0b))pe
 2. ctrl+alt+del
 3. windows update
 4. rdp centang
+5. mode high performance
+
+netsh advfirewall firewall set rule group="Remote Desktop" new enable=Yes
+
+Get-NetConnectionProfile
+Set-NetConnectionProfile -NetworkCategory Private
+
