@@ -7,6 +7,12 @@ net user administrator /active:yes
 ```bash
 Pstore516&&##
 ```
+```bash
+DISM /online /Get-TargetEditions
+```
+```bash
+DISM /online /Set-Edition:ServerStandard /ProductKey: /AcceptEula
+```
 
 1. internet option
 2. ctrl+alt+del
