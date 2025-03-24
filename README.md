@@ -5,7 +5,7 @@ net accounts /lockoutthreshold:0
 net user administrator /active:yes
 ```
 ```bash
-N2Q+8rfsn0b))pe
+Pstore516&&##
 ```
 
 1. internet option
@@ -17,5 +17,6 @@ N2Q+8rfsn0b))pe
 netsh advfirewall firewall set rule group="Remote Desktop" new enable=Yes
 
 Get-NetConnectionProfile
-Set-NetConnectionProfile -NetworkCategory Private
+
+Set-NetConnectionProfile -NetworkCategory Public
 
