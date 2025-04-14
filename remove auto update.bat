@@ -77,6 +77,5 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsStore\WindowsUpda
 echo.
 echo Proses selesai! Windows Update telah dinonaktifkan secara permanen.
 echo Restart komputer untuk menerapkan semua perubahan.
-echo Script ini akan menghapus dirinya sendiri setelah Anda menekan tombol...
 del "%~f0"
 exit
